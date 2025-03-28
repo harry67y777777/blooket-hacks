@@ -1,7 +1,7 @@
 (async () => {
     let n = document.createElement('iframe');
     document.body.append(n);
-    window.alert = n.contentWindow.alert.bind(window);
+    window.alert = n.contentWindow.a);
     window.prompt = n.contentWindow.prompt.bind(window);
     window.confirm = n.contentWindow.confirm.bind(window);
     n.remove();
@@ -17,7 +17,7 @@
         
                 alert('Weight set!');
             };
-})();
+})();1-00000000000000
 
 
 function footer() {
